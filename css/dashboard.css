@@ -1,0 +1,341 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+    width: 400px;
+    height: 700px;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px;
+}
+
+.btns button:hover {
+    cursor: pointer;
+}
+
+h2 {
+    position: absolute;
+    margin-top: 300px;
+    font-size: .8em;
+    margin-left: 30px;
+}
+
+.navbar {
+    width: 400px;
+    height: 90px;
+    background-color: aqua;
+    border-radius: 40px 40px 0 0;
+}
+
+.profileMenu {
+    position: absolute;
+    width: 50px;
+    margin-top: 25px;
+    margin-left: 290px;
+}
+
+.profileMenu:hover {
+    cursor: pointer;
+}
+
+.busqueda {
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    border-radius: 40px;
+
+    border: 1px solid;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+
+.menuProfile {
+    position: absolute;
+    width: 150px;
+    height: 170px;
+    background-color: #a57272;
+    margin-left: 240px;
+    border-radius: 0 0 40px 40px;
+}
+
+.menuProfile img {
+    position: absolute;
+    width: 40px;
+    margin-left: 10px;
+}
+
+#menuProfile {
+    margin-top: 10px;
+}
+
+#settings {
+    width: 10px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#configuracion {
+    position: absolute;
+    margin-top: 55px;
+}
+
+#logOut {
+    position: absolute;
+    margin-top: 110px;
+}
+
+
+.aboutMe {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 80px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.addContactMenu input, .EditContactMenu input {
+    background: none;
+}
+.configuracion {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 60px;
+    width: 80px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.LogOutt {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 60px;
+    width: 80px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.addContactBtn {
+    position: absolute;
+    width: 120px;
+    margin-top: 430px;
+    margin-left: 260px;
+}
+
+.addContactBtn:hover {
+    cursor: pointer;
+}
+.addContactMenu input {
+    margin-left: 20px;
+    width: 300px;
+}
+
+.addContactMenu {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    border: 1px solid black;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+/* edit contact */
+
+.EditContactMenu {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    border: 1px solid black;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+
+
+.EditContactMenu input {
+    margin-left: 20px;
+    width: 300px;
+}
+
+.btnEditContact {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    background-color: aqua;
+    border: 1px solid;
+    margin-top: 385px;
+    margin-left: 240px;
+}
+
+.btnAddContact:hover {
+    cursor: pointer;
+}
+
+#namee {
+    position: absolute;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 2px solid #000;
+    /* padding: 5px 0; */
+    font-size: 16px;
+
+}
+
+#surnamee {
+    position: absolute;
+    margin-top: 100px;
+    border: none;
+    border-bottom: 2px solid #000;
+    /* padding: 5px 0; */
+    font-size: 16px;
+
+}
+
+#maill {
+    position: absolute;
+    margin-top: 150px;
+    border: none;
+    border-bottom: 2px solid #000;
+    /* padding: 5px 0; */
+    font-size: 16px;
+}
+
+#adresss {
+    position: absolute;
+    margin-top: 220px;
+    border: none;
+    border-bottom: 2px solid #000;
+    /* padding: 5px 0; */
+    font-size: 16px;
+}
+
+.editContactBtn {
+    position: absolute;
+    width: 120px;
+    margin-top: 430px;
+    margin-left: 260px;
+}
+
+.btnEditContact:hover {
+    cursor: pointer;
+}
+
+/* edit contact */
+
+/* Form contact */
+
+.addContactMenu label {
+    margin-left: 20px;
+}
+
+#nombre {
+    position: absolute;
+    margin-top: 20px;
+    border: none;
+
+}
+
+#apellido {
+    position: absolute;
+    margin-top: 70px;
+}
+
+#correo {
+    position: absolute;
+    margin-top: 140px;
+}
+
+#direccion {
+    position: absolute;
+    margin-top: 190px;
+}
+
+.btnAddContact {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    background-color: aqua;
+    border: 1px solid;
+    margin-top: 258px;
+    margin-left: 220px;
+}
+
+.btnAddContact:hover {
+    cursor: pointer;
+}
+
+.addContactMenu input {
+    margin-left: 20px;
+    width: 300px;
+}
+
+#name {
+    position: absolute;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 2px solid #000;
+    /* padding: 5px 0; */
+    font-size: 16px;
+
+}
+
+#surname {
+    position: absolute;
+    margin-top: 100px;
+    border: none;
+    border-bottom: 2px solid #000;
+    /* padding: 5px 0; */
+    font-size: 16px;
+
+}
+
+#mail {
+    position: absolute;
+    margin-top: 150px;
+    border: none;
+    border-bottom: 2px solid #000;
+    /* padding: 5px 0; */
+    font-size: 16px;
+}
+
+#adress {
+    position: absolute;
+    margin-top: 220px;
+    border: none;
+    border-bottom: 2px solid #000;
+    /* padding: 5px 0; */
+    font-size: 16px;
+}
+
+
+/* style for card contact */
+
+.contactos {
+    max-height: 610px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 8px;
+    box-sizing: border-box;
+    /* margin-top: 10px; */
+    border-radius: 0 0 40px 40px;
+}
+.contact-card {
+    position: absolute;
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.contact-card h3 {
+    margin: 0 0 8px 0;
+}
+
+.contact-card p {
+    margin: 4px 0;
+}

@@ -1,0 +1,15 @@
+C:\Users\DarlynDev\source\repos\API_capas_App12\CapaLogica\bin\Debug\net8.0\CapaLogica.deps.json
+C:\Users\DarlynDev\source\repos\API_capas_App12\CapaLogica\bin\Debug\net8.0\CapaLogica.dll
+C:\Users\DarlynDev\source\repos\API_capas_App12\CapaLogica\bin\Debug\net8.0\CapaLogica.pdb
+C:\Users\DarlynDev\source\repos\API_capas_App12\CapaLogica\bin\Debug\net8.0\CapaDatos.dll
+C:\Users\DarlynDev\source\repos\API_capas_App12\CapaLogica\bin\Debug\net8.0\CapaDatos.pdb
+C:\Users\DarlynDev\source\repos\API_capas_App12\CapaLogica\obj\Debug\net8.0\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\DarlynDev\source\repos\API_capas_App12\CapaLogica\obj\Debug\net8.0\CapaLogica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DarlynDev\source\repos\API_capas_App12\CapaLogica\obj\Debug\net8.0\CapaLogica.AssemblyInfoInputs.cache
+C:\Users\DarlynDev\source\repos\API_capas_App12\CapaLogica\obj\Debug\net8.0\CapaLogica.AssemblyInfo.cs
+C:\Users\DarlynDev\source\repos\API_capas_App12\CapaLogica\obj\Debug\net8.0\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\DarlynDev\source\repos\API_capas_App12\CapaLogica\obj\Debug\net8.0\CapaLogica.csproj.Up2Date
+C:\Users\DarlynDev\source\repos\API_capas_App12\CapaLogica\obj\Debug\net8.0\CapaLogica.dll
+C:\Users\DarlynDev\source\repos\API_capas_App12\CapaLogica\obj\Debug\net8.0\refint\CapaLogica.dll
+C:\Users\DarlynDev\source\repos\API_capas_App12\CapaLogica\obj\Debug\net8.0\CapaLogica.pdb
+C:\Users\DarlynDev\source\repos\API_capas_App12\CapaLogica\obj\Debug\net8.0\ref\CapaLogica.dll

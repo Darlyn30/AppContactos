@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <style>
+        .contact-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <button id="loadContacts">Cargar Contactos</button>
+    <div id="contactsContainer"></div>
+
+    <script>
+        document.getElementById('loadContacts').addEventListener('click', function() {
+            fetch("https://localhost:7226/api/Contacto")
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                // Limpiar el contenedor antes de agregar nuevas cartas
+                document.getElementById('contactsContainer').innerHTML = '';
+                data.forEach(contact => {
+                    createContactCard(contact.nombre, contact.mail, contact.telefono, contact.direccion);
+                });
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        });
+
+        function createContactCard(nombre, mail, telefono, direccion) {
+            let card = document.createElement('div');
+            card.className = 'contact-card';
+
+            let userName = document.createElement('h3');
+            userName.textContent = nombre;
+
+            let userEmail = document.createElement('p');
+            userEmail.textContent = `Email: ${mail}`;
+
+            let userPhone = document.createElement('p');
+            userPhone.textContent = `Teléfono: ${telefono}`;
+
+            let userAddress = document.createElement('p');
+            userAddress.textContent = `Dirección: ${direccion}`;
+
+            card.appendChild(userName);
+            card.appendChild(userEmail);
+            card.appendChild(userPhone);
+            card.appendChild(userAddress);
+
+            document.getElementById('contactsContainer').appendChild(card);
+        }
+    </script>
+</body>
+</html>

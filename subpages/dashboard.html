@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/ico-dash.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/dashboard.css">
+    <title>DASHBOARD</title>
+</head>
+<body>
+
+    <div class="content">
+
+        <h2>NO HAY CONTACTOS, PRESIONE '+' PARA AGREGAR</h2>
+        <div class="navbar">
+            <img src="/assets/profileMenu.png" alt="#" class="profileMenu">
+            <input type="text" class="busqueda" placeholder="search contact">
+        </div>
+
+        <div class="menuProfile" style="display: none;">
+            <img src="/assets/profileDash.png" alt="#" id="menuProfile">
+            <img src="/assets/settings.png" alt="#" id="settings">
+
+            <img src="/assets/settings.png" alt="#" id="configuracion">
+
+            <img src="/assets/logOut.png" alt="#" id="logOut">
+
+            <div class="btns">
+                <button class="aboutMe">About me</button>
+                <button class="configuracion">Settings</button>
+                <button class="LogOutt">Log Out</button>
+            </div>
+
+        </div>
+
+        <div id="addContactBtn">
+            <img src="/assets/addBtn.png" alt="#" class="addContactBtn">
+        </div>
+
+        
+    <div id="editContactBtn">
+            <img src="/assets/editBtn.png" alt="#" class="editContactBtn" style="display: none;">
+        </div>
+        
+
+
+
+        <div class="addContactMenu" style="display: none;">
+            <label for="" id="nombre">Name</label> <br>
+            <input type="text" name="" id="name" placeholder="Name"> <br>
+            <label for="" id="apellido">Phone number</label> <br> 
+            <!-- tiene id apellido para no ponerme a joder con el dise?o de n nuevo -->
+            <input type="text" name="" id="surname" placeholder="Phone number"> <br>
+            <label for="" id="correo">Correo</label> <br>
+            <input type="text" name="" id="mail" placeholder="Email"> <br>
+            <label for="" id="direccion">Adress</label>
+            <input type="text" name="" id="adress" placeholder="Adress">
+
+            <button class="btnAddContact">Add contact</button>
+
+        </div>
+
+        <button class="btnEditContact" style="display: none;">Edit contact</button>
+
+
+        <div class="contactos"></div>
+
+    </div>
+
+    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="/js/dashboard.js"></script>
+</body>
+</html>
